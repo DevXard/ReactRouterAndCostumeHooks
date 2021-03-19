@@ -1,0 +1,27 @@
+.VendingMachine{
+    width: 100vw;
+    height: 100vh;;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fto-aru-majutsu-no-index%2Fimages%2F2%2F26%2FJihanki.png%2Frevision%2Flatest%3Fcb%3D20120504161315&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+.VendingMachine-links{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.VendingMachine-links a {
+  margin: 5px;
+  margin-bottom: 10vh;
+  padding: 0.7em, 1em;
+  background-color: rgba(57, 211, 231, 0.5);
+  text-align: center;
+  color: white;
+  border-radius: 15%;
+  text-decoration: none;
+  font-size: 25px;
+  display:block;
+}
